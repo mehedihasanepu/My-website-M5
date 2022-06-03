@@ -1,8 +1,9 @@
 body{
     margin: 0;
     font-family: 'Lato', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
-font-family: 'Tiro Bangla', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Tiro Bangla', serif;
 }
 
 h1{ 
@@ -29,8 +30,67 @@ p{
 }
 .top-banner{
   background-image: url(images/header-bg.png);
-  background-size: 100%;
+  background-size: 80%;
 }
 section{
-    height: 550px;
+    height: 400px;
+    padding-bottom: 250px;
+}
+.link-button{
+    background-color: rgb(255, 0, 162);
+    font-size: small;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5PX;
+}
+.latest-work{
+    text-align: center;
+}
+.my-latest-work{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.my-latest-work img{
+    margin: 2%;
+    width: 29%;
+    float: left;
+}
+.client-told{
+    text-align: center;
+}
+.works{
+    height: 120px;
+}
+h3{
+    font-weight: 500;
+    text-align: center;
+}
+h5{
+    font-weight: 400;
+    text-align: center;
+    color: dimgray;
+}
+.p-bottom{
+    text-align: center;
+    font-weight: 500;
+    color: black;
+}
+.contacts{
+    height: 150px;
+background-color: rgb(255, 0, 170);
+}
+.bottom-message{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+.gmail{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+footer{
+    text-align: center;
+    font-size: 10px;
 }
